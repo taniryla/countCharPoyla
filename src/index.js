@@ -43,5 +43,5 @@ countChar('12ab!')
 // 16.  Can you see clearly that the step is correct?
 
 function countChar(word) {
-  return word.split().count();
+  if (typeof(word) === 'string') return word.split().count();
 }
