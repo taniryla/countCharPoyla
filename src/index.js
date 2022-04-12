@@ -38,7 +38,7 @@ countChar('12ab!')
 // 14. Progress to more complex examples. What is your updated plan here to find a solution?
 // 15. If you still cannot solve the proposed problem, try to solve first some related problem. Could you imagine a more accessible related problem? A more general problem? A more special problem? An analogous problem? Could you solve a part of the problem? Keep only a part of the data inputs, drop the other part; how far is the unknown then determined, how can it vary? Could you derive something useful from the data? Could you think of other data appropriate to determine the unknown? Could you change the unknown or the data, or both if necessary, so that the new unknown and the new data are nearer to each other? Did you use all the data? Did you use the whole of the data inputs? Have you taken into account all essential notions involved in the problem?
 
-// Third, carry out your plan of the solution and check each one of your steps in pseudocode. 
+// Third, carry out your plan of the solution and check each one of your steps in pseudocode. If you can't solve the problem, solve a simpler problem.  Temporarily ignore the difficulty, write a simplified solution and then incorporate that difficulty back in. 
  
 // 16.  Can you see clearly that the step is correct?
 
