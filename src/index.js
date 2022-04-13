@@ -88,6 +88,5 @@ function countChar(arr) {
       }
     }
   }
-  // return obj;
   return obj;
 }
