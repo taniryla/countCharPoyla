@@ -49,7 +49,7 @@
 // obj += 1
 
 // //  13. What about examples with empty inputs? Any other edge case examples? What examples with invalid inputs?
-countChar("12ab!");
+// countChar("12ab!");
 // // 14. Progress to more complex examples. What is your updated plan here to find a solution?
 
 countChar("Mary had a little lamb");
@@ -61,12 +61,12 @@ countChar("Mary had a little lamb");
 
 function countChar(arr) {
   let obj = {};
-  if (typeof word === "string") {
+  if (typeof arr === "string") {
     let char = arr.split("");
-    console.log(char);
     for (let i = 0; i < char.length; i++) {
       obj[char[i]] = 0;
       obj += 1;
+      console.log(obj);
     }
   }
   return obj;
