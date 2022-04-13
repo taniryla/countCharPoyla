@@ -34,7 +34,7 @@
 // do I count empty spaces?
 // do upper case count the same as lower case?
 
-// let char = {};
+// let obj = {};
 
 // m: 2
 // a: 4
@@ -59,18 +59,17 @@ countChar("Mary had a little lamb");
 
 // // 16.  Can you see clearly that the step is correct?
 
-// IV. 	Examine the solution obtained and refactor. 
+// IV. 	Examine the solution obtained and refactor.
 
-
-// 17.  Can you check your result? 
-// 18.  Can you check the argument? 
-// 19.  Can you derive the result differently? 
-can use a for of loop instead of for loop
-use || instead of else
-// 20.  Can you see it at a glance? 
-// 21.  Can you make the code DRYer and refactor? 
-// 22.  Can you improve the performance? 
-could use CharCodeAt or regular expression versus typeof
+// 17.  Can you check your result?
+// 18.  Can you check the argument?
+// 19.  Can you derive the result differently?
+// can use a for of loop instead of for loop
+// use || instead of else
+// 20.  Can you see it at a glance?
+// 21.  Can you make the code DRYer and refactor?
+// 22.  Can you improve the performance?
+// could use CharCodeAt or regular expression versus typeof
 
 // 23.   How have other people solved this problem?
 
