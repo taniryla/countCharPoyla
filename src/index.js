@@ -62,12 +62,14 @@ countChar("Mary had a little lamb");
 function countChar(arr) {
   let obj = {};
   if (typeof word === "string") {
-    arr.split("");
-    for (let i = 0; i < arr.length; i++) {
-      obj[arr[i]] = 0;
+    let char = arr.split("");
+    console.log(char);
+    for (let i = 0; i < char.length; i++) {
+      obj[char[i]] = 0;
       obj += 1;
     }
   }
+  return obj;
 }
 
 countChar("aaa");
