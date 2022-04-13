@@ -65,16 +65,15 @@ function countChar(arr) {
     let char = arr.toLowerCase().split("");
     for (let i = 0; i < char.length; i++) {
       let key = char[i];
-      obj[key] = 1;
       // how do we show "if obj[key] already has a value add 1 the second time"
       // restate? if we've already seen this key, add 1 to the value
-      if (obj[key]) {
+      if (obj[key] > 0) {
         obj[key] += 1;
+      } else {
+        obj[key] = 1;
       }
-      console.log(obj);
     }
   }
-  return obj;
+  // return obj;
+  console.log(obj);
 }
-
-countChar("aaa");
